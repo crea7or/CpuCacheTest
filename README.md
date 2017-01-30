@@ -12,3 +12,7 @@ Tests will be performed simultaneously in THREADS_CNT threads.
    
 3) Modification of the different variables that are very far from each other in the same array.
    They will be placed in the different CPU cache lines (distance 2000).
+
+[Prefmonitor](http://www.cpuid.com/softwares/perfmonitor-2.html) screenshot demonstrates, how many latency has been added to the each instruction in the tests:
+
+![CPU cycles](/falsesharing.png?raw=true "screenshot")
